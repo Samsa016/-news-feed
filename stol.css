@@ -25,4 +25,17 @@ body {
 }
 a {
     color: black;
+
+}
+@media (max-width: 768px) {
+    .news_cont {
+        grid-template-columns: 1fr 1fr;
+        gap: 5px;
+        padding: 5px;
+    }
+}
+@media (max-width: 480px) {
+    .news_cont {
+        grid-template-columns: 1fr;
+    }
 }
